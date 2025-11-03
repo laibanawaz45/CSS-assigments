@@ -1,0 +1,40 @@
+td{
+    width: 150px;
+    height: 100px;
+} 
+.box1{
+    background-color:#ff9a68 ;
+}
+.box2{
+    background-color: rgb(106, 91, 148);
+}
+.box3{
+    background-color:hsl(84, 39%, 49%); 
+}
+.box4{
+    background-color:#f6cac9 ;
+}
+.box5{
+    background-color: #91a8d1;
+}
+.box6{
+    background-color: hsl(1, 30%, 45%);
+}
+.box7{
+    background-color: #b564a7;
+}
+.box8{
+    background-color: rgb(0, 154, 118);
+}
+.box9{
+    background-color: hsl(10, 73%, 50%) ;
+}
+.box10{
+    background-color: #44b8ad;
+}
+.box11{
+    background-color: rgb(239, 191, 80);
+}
+.box12{
+    background-color:hsl(238, 29%, 50%) ;
+}
