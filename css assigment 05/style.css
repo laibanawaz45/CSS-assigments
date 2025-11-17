@@ -1,0 +1,74 @@
+.playground{
+    
+    position: relative;
+    width: 80%;
+    height: 400px;
+    border: 10px solid;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    overflow-y: scroll; 
+}
+
+.box1{
+    background-color: rgba(199, 151, 199, 0.685);
+     width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+ 
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, hsla(0, 0%, 0%, 0.285) 0px 30px 60px -30px; 
+    position: static;
+}
+.box2{
+    position: relative;
+       left: 20px;
+    background-color: rgb(154, 220, 154);
+     width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+ 
+    border-radius: 20px; 
+    box-shadow: rgba(201, 144, 94, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.box3{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgb(220, 145, 118);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px; 
+   
+    border-radius: 20px; 
+    box-shadow: rgba(201, 144, 94, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.box4{
+    position: fixed;
+    top: 60%;
+    
+    right: 20%;
+    background-color: rgb(235, 142, 142);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px; 
+ 
+    border-radius: 20px; 
+    box-shadow: rgba(201, 144, 94, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.box5{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(125, 125, 186);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px; 
+   
+    border-radius: 20px; 
+    box-shadow: rgba(201, 144, 94, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
