@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -43,5 +43,40 @@
 }
 .box8{
     flex-basis: 20;
+    flex-shrink: 1;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+     max-width: 800px;
+     margin: auto;
+     height: 100vh;
+     gap: 10px;
+}
+.left{
+    display: flex;
+    margin-top: 10px;
+}
+   
+.left>div{
+    border: 2px solid black;
+    width: 25%;
+    background-color: green;
+    height: 150px;
+}
+.left-bottom{
+    display: flex;
+}
+.left-bottom>div{
+    border: 2px solid black;
+    width: 25%;
+    background-color: green;
+    height: 150px;
+}
+.box1{
+   
     flex-shrink: 1;
 }
